@@ -1,0 +1,78 @@
+#include <stdio.h>
+// #define m 3
+// # define n 2
+// int m=3;
+// int n=2;
+// int main()
+// {
+//     // int arr[5]={1,2,3,4,5};-
+//     // int arr[m][n] = {{10, 20}, {30, 40}, {50, 60}};
+//     // int arr[3][2] = {{10, 20}, {30, 40}, {50, 60}};
+//     // const int m=3;
+//     //    const int n=2;
+//     int arr[3][2] = {{10, 20}, {30, 40}, {50, 60}};
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 2; j++)
+//         {
+           
+//             printf("%d ",arr[i][j]);
+//         }
+//    printf("\n"); 
+// }
+
+// }
+
+// int main()
+// {
+//     // int arr[5]={1,2,3,4,5};-
+//     // int arr[m][n] = {{10, 20}, {30, 40}, {50, 60}};// internal  braces are not mandatory but it is advisable to use 
+//     // int arr[3][2] = {{10, 20}, {30, 40}, {50, 60}};
+//     // const int m=3;
+//     //    const int n=2;
+//     int arr[3][2] = {{10, 20}, {30, 40}, {50, 60}};
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 2; j++)
+//         {
+//             arr[i][j] = i + j;
+//             printf("%d ",arr[i][j]);
+//         }
+//    printf("\n"); 
+// }
+
+// }
+
+
+// int main()
+// {
+  
+//     int arr[][2] = {10, 20, 30, 40, 50, 60};// i can skip no of rows but we can't skip no of columns 
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 2; j++)
+//         {
+           
+//             printf("%d ",arr[i][j]);
+//         }
+//    printf("\n"); 
+// }
+
+// }
+
+int main()
+{
+  
+    int arr[3][2] = {10, 20, 30, 40, 50, 60,7};
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+           
+           
+           printf("%d ",arr[i][j]);
+        }
+   printf("\n"); 
+}
+
+}
