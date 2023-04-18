@@ -1,0 +1,20 @@
+// void print(int arr[][3],int m){
+//     int mat[m][3];
+//     printf("Main matrix\n");
+//     for (int i=0;i<m;i++){
+//         for(int j=0;j<3;j++){
+//             printf("%d ",arr[i][j]);
+
+//         }
+//         printf("\n");
+//     }
+//     printf("Transposed Matrix\n");
+//      for (int i=0;i<m;i++){
+//         for(int j=0;j<3;j++){
+//             mat[i][j]=arr[j][i];
+//             printf("%d ",mat[i][j]);
+
+//         }
+//         printf("\n");
+//     }
+// }
